@@ -11,7 +11,8 @@ with open("numbers.txt" , "r") as number_file, open("even.txt" , "a") as even_fi
             #write to even file
             even_file.write(even + "\n")
         #check if odd
-
+        elif number % 2 == 1:
             #convert to sring
-
+            odd = str(number)
             #write to even file
+            odd_file.write(odd + "\n")
